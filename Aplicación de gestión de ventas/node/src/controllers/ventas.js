@@ -1,6 +1,6 @@
-const pool = require('./../conection');
+const {pool} = require('./../conection');
 
-const crear = ()=> {
+const crear = (req, res)=> {
     const nombre = req.body.nombre;
     const descripcion = req.body.descripcion;
     const precio = req.body.precio;
@@ -9,13 +9,13 @@ const crear = ()=> {
         if(err) {
             res.send('Hubo un error: ' + err);
         } else {
-            res.send('Registro exitoso');
+            res.send('Creación exitosa');
         }
-    })
+    });
 }
 
 
-const verTodo = ()=> {
+const verTodo = (req, res)=> {
     const sql = 'SELECT * FROM productos';
     pool.query(sql, (err, result)=> {
         if(err) {
@@ -27,7 +27,7 @@ const verTodo = ()=> {
 }
 
 
-const buscar = ()=> {
+const buscar = (req, res)=> {
     const id = req.params.id;
     const sql =`SELECT * FROM productos WHERE id = ${id}`;
     pool.query(sql, (err, result)=> {
@@ -41,7 +41,7 @@ const buscar = ()=> {
 }
 
 
-const actualizar = ()=> {
+const actualizar = (req, res)=> {
     const id = req.params.id;
     const campo = req.body.campo;
     const valor = req.body.valor;
@@ -56,7 +56,7 @@ const actualizar = ()=> {
 }
 
 
-const eliminar = ()=> {
+const eliminar = (req, res)=> {
     const id = req.params.id;
     const sql = `DELETE FROM productos WHERE id = ${id}`;
     pool.query(sql, (err)=> {
