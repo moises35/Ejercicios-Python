@@ -1,11 +1,12 @@
 const express = require('express');
 const routes = express.Router();
+const ventasControllers = require('./../controllers/ventas');
 
 // Rutas
-routes.get('/create', );
-routes.get('/all', );
-routes.get('/search', );
-routes.post('/update/:id', );
-routes.post('/delete/:id', );
+routes.post('/create', ventasControllers.crear);
+routes.get('/all', ventasControllers.verTodo);
+routes.get('/search/:id', ventasControllers.buscar);
+routes.post('/update/:id', ventasControllers.actualizar);
+routes.post('/delete/:id', ventasControllers.eliminar);
 
-exports.module = routes;
+module.exports = routes;
