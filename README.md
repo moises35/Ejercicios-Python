@@ -25,7 +25,7 @@ Entre las funciones del programa se listan:
 ### Tecnologías utilizadas
 - ![Python]  
 - ![SQLITE]   
-<p align="right"><a href="#">Ir al repositorio del proyecto</a></p> 
+<p align="right"><a href="https://github.com/moises35/Ejercicios-Python/tree/master/Agenda%20de%20Contactos">Ir al proyecto</a></p> 
 <p align="right">(<a href="#top">Volver al indice</a>)</p> 
 </br>    
 
@@ -44,7 +44,7 @@ Entre las funciones del programa se listan:
 - ![Python]  
 - ![Node.js]
 - ![MySQL]
-<p align="right"><a href="#">Ir al repositorio del proyecto</a></p> 
+<p align="right"><a href="https://github.com/moises35/Ejercicios-Python/tree/master/Aplicaci%C3%B3n%20de%20control%20de%20gastos%20personales">Ir al proyecto</a></p> 
 <p align="right">(<a href="#top">Volver al indice</a>)</p> 
 </br>
 
@@ -83,7 +83,7 @@ Una vez que se inicie sesión, se dará acceso al panel principal en donde se te
 ### Tecnologías utilizadas
 - ![Python]   
 - ![SQLITE]
-<p align="right"><a href="#">Ir al repositorio del proyecto</a></p> 
+<p align="right"><a href="https://github.com/moises35/Ejercicios-Python/tree/master/Gestor%20de%20Contrase%C3%B1as%20Python">Ir al proyecto</a></p> 
 <p align="right">(<a href="#top">Volver al indice</a>)</p> 
 </br>
 
@@ -122,11 +122,10 @@ Entre las funciones del programa se listan:
 - ![Python]  
 - ![Node.js]
 - ![PostgreSQL]
-<p align="right"><a href="#">Ir al repositorio del proyecto</a></p> 
+<p align="right"><a href="https://github.com/moises35/Ejercicios-Python/tree/master/Aplicaci%C3%B3n%20de%20gesti%C3%B3n%20de%20ventas">Ir al proyecto</a></p> 
 <p align="right">(<a href="#top">Volver al indice</a>)</p> 
 </br>
 
------------------------------------------------------------------------
 
 
 -----------------------------------------------------------------------
@@ -151,7 +150,7 @@ Entre las funciones del programa se listan:
 ### Tecnologías utilizadas
 - ![Python]  
 
-<p align="right"><a href="#">Ir al repositorio del proyecto</a></p> 
+<p align="right"><a href="https://github.com/moises35/Ejercicios-Python/tree/master/ToDo">Ir al proyecto</a></p> 
 <p align="right">(<a href="#top">Volver al indice</a>)</p> 
 </br>
 
