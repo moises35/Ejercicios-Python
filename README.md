@@ -6,6 +6,8 @@
     <li><a href="#agenda-de-contactos">Agenda de Contactos</a></li>
     <li><a href="#aplicación-de-control-de-gastos-personales">Aplicación de control de gastos personales</a></li>
     <li><a href="#gestor-de-contraseñas">Gestor de contraseñas</a></li>
+    <li><a href="#aplicación-de-gestión-de-ventas">Aplicación de gestión de ventas</a></li>
+    <li><a href="#todo">ToDo (simple)</a></li>
 </ul>
 
 
@@ -86,10 +88,87 @@ Una vez que se inicie sesión, se dará acceso al panel principal en donde se te
 </br>
 
 -----------------------------------------------------------------------
+## Aplicación de gestión de ventas
+Aplicación de gestión de ventas hecha con Python (en el lado del cliente), Node.js (para el servidor) y PostgreSQL (gestor de base de datos).    
+Entre las funciones del programa se listan:    
+* Registrar un producto (nombre, descripción, precio).
+* Mostrar todos los productos
+* Buscar un producto por su ID
+* Modificar un producto utilizando el ID (se actualiza solamente un campo en especifico, el cual es elegido por el usuario)
+* Eliminar un movimiento utilizando el ID
+* Realizar una venta según los productos que se tengan en el inventario, generando un comprobante con todos los detalles
 
+
+<h2 align="center">Inventario de productos</h2> 
+
+<center>
+
+![](./img/Aplicacion%20de%20gesti%C3%B3n%20de%20ventas%20p1.jpg)
+
+</center>
+</br>
+
+
+<h2 align="center">Comprobante de Venta</h2> 
+
+<center>
+
+![](./img/Aplicacion%20de%20gesti%C3%B3n%20de%20ventas%20p2.jpg)
+
+</center>
+</br>
+
+### Tecnologías utilizadas
+- ![Python]  
+- ![Node.js]
+- ![PostgreSQL]
+<p align="right"><a href="#">Ir al repositorio del proyecto</a></p> 
+<p align="right">(<a href="#top">Volver al indice</a>)</p> 
+</br>
+
+-----------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------
+## ToDo
+ToDo simple hecho con python, los datos solo son almacenados temporalmente durante la ejecución del programa, luego se pierden. Fue hecho para prácticar un poco de POO   
+Entre las funciones del programa se listan:    
+* Agregar tarea (nombre, fecha)
+* Editar tarea
+* Marcar una tarea como completada
+* Borrar tarea
+* Ver todas las tareas
+
+
+<center>
+
+![](./img/ToDo(simple).jpg)
+
+</center>
+</br>
+
+
+### Tecnologías utilizadas
+- ![Python]  
+
+<p align="right"><a href="#">Ir al repositorio del proyecto</a></p> 
+<p align="right">(<a href="#top">Volver al indice</a>)</p> 
+</br>
+
+-----------------------------------------------------------------------
 
 ## Autor
 - GitHub - [moises35](https://github.com/moises35)
+
+
+
+
+
+
+
+
+
+
 
 
 <!-- Iconos -->
