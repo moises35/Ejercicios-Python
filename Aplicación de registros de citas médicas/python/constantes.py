@@ -1,0 +1,3 @@
+PORT_DB_SERVER = '3000/'
+ROUTE_DB_SERVER = 'http://localhost:'
+HEADER_CITA = ['ID', 'PACIENTE', 'DETALLE', 'DIA', 'HORA', 'ESTADO']
