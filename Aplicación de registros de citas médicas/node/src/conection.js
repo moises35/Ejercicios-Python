@@ -8,8 +8,8 @@ const conexion = new sqlite3.Database('citas.db', (err) => {
     }
 });
 
-const sql = `CREATE TABLE IF NOT EXISTS cita(
-    id INTEGER AUTO_INCREMENT PRIMARY KEY,
+const sql = `CREATE TABLE IF NOT EXISTS citas(
+    id INTEGER PRIMARY KEY AUTOINCREMENT ,
     nombre TEXT NOT NULL,
     detalle TEXT NOT NULL,
     fecha DATE NOT NULL,

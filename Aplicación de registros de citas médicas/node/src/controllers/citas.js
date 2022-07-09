@@ -3,11 +3,11 @@ const conexion = require('./../conection');
 // Ver todos los registros de cita
 const viewAll = (req, res) => {
     const sql = 'SELECT * FROM citas'
-    conexion.all(sql, (res, err) => {
+    conexion.all(sql, (err, result) => {
         if(err) {
             res.send('Ha ocurrido un error: ' + err)
         } else {
-            res.send(res)
+            res.send(result)
         }
     });
 }   
@@ -15,7 +15,7 @@ const viewAll = (req, res) => {
 
 // Registrar citas
 const createCita = (req, res) => {
-    const {name, detalle, fecha, hora, estado} = req.body.name;
+    const {name, detalle, fecha, hora, estado} = req.body;
     const sql = `INSERT INTO citas(nombre, detalle, fecha, hora, estado)
         VALUES('${name}', '${detalle}', '${fecha}', '${hora}', '${estado}')`
     conexion.run(sql, (err)=> {
@@ -30,13 +30,13 @@ const createCita = (req, res) => {
 
 // Ver citas de hoy
 const viewToday = (req, res) => {
-    const dia = req.body.dia;
-    const sql =  `SELECT * FROM citas WHERE fecha = ${fecha} AND estado = 'Agendada'`
-    conexion.all(sql, (res, err) => {
+    const fecha = req.body.fecha;
+    const sql =  `SELECT * FROM citas WHERE fecha = '${fecha}' AND estado = 'Agendada'`
+    conexion.all(sql, (err, result) => {
         if(err) {
             res.send('Ha ocurrido un error: ' + err)
         } else {
-            res.send(res)
+            res.send(result)
         }
     });
 }
